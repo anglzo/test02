@@ -1,0 +1,10 @@
+.venv
+venv
+__pycache__
+.env
+local.settings*.json
+tests
+__azurite_db_*.json
+__blobstorage__
+__queuestorage__
+AzuriteConfig

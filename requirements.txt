@@ -1,0 +1,3 @@
+# Todo en un solo entorno (modo inprocess: Streamlit + lógica del backend).
+-r backend/requirements.txt
+-r frontend/requirements.txt

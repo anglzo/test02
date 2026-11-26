@@ -1,0 +1,25 @@
+# Mismo tema que scanner (Homologación de materiales) para mantener la línea visual de EY.
+[theme]
+base = "dark"
+primaryColor = "#FFE600"              # acento EY
+backgroundColor = "#0E0E12"           # fondo general
+secondaryBackgroundColor = "#1A1A22"  # tarjetas, uploader, sidebar
+textColor = "#F2F2F2"
+linkColor = "#FFE600"
+borderColor = "#33333C"
+baseRadius = "8px"
+buttonRadius = "8px"
+font = "'IBM Plex Sans':https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+headingFont = "'IBM Plex Sans':https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600;700&display=swap"
+
+[theme.sidebar]
+backgroundColor = "#15151B"
+
+[server]
+maxUploadSize = 25
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"

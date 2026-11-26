@@ -1,0 +1,30 @@
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+local.settings.json
+
+# Entorno de Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Azurite / datos locales
+__azurite_db_*.json
+__blobstorage__/
+__queuestorage__/
+AzuriteConfig
+
+# Azure Functions
+.python_packages/
+bin/
+obj/
+
+# Sistema / editor
+.DS_Store
+.vscode/
+.idea/
+.azurite/
+tools/voces/
+.data/

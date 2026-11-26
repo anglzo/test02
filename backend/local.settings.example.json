@@ -1,0 +1,21 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "STORAGE_MODE": "local",
+    "STORAGE_CONNECTION_STRING": "",
+    "AZURE_OPENAI_ENDPOINT": "https://<tu-recurso>.openai.azure.com/",
+    "AZURE_OPENAI_API_KEY": "<clave>",
+    "AZURE_OPENAI_DEPLOYMENT": "gpt-4.1-mini",
+    "AZURE_OPENAI_API_VERSION": "2024-12-01-preview",
+    "AZURE_SPEECH_KEY": "<clave>",
+    "AZURE_SPEECH_REGION": "eastus2",
+    "AZURE_SPEECH_ENDPOINT": "",
+    "AZURE_DOCINTEL_ENDPOINT": "https://<tu-recurso>.cognitiveservices.azure.com/",
+    "AZURE_DOCINTEL_KEY": "<clave>"
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}
